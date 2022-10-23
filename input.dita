@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id-topic"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://file.xslt">
+  <title>Topic</title>
+  <body>
+    <p>The following table shows a glossary of terms used in this document.</p>
+    <table id="kndfgkdj">
+      <title>Topic of terms</title>
+      <tgroup cols="2">
+        <colspec align="left" colname="c1" colnum="1" colwidth="20*"/>
+        <colspec align="left" colname="c2" colnum="2" colwidth="80*"/>
+        <thead valign="middle">
+          <row>
+            <entry align="center" colsep="1" rowsep="1">
+              <p>Term</p>
+            </entry>
+            <entry align="center" colsep="1" rowsep="1">
+              <p>Definition</p>
+            </entry>
+          </row>
+        </thead>
+        <tbody valign="middle">
+          <row>
+            <entry colsep="1" rowsep="1">
+              <p>Term 1*!W!@W!N/A@#!*@       </p>
+            </entry>
+            <entry colsep="1" rowsep="1">Definition 1</entry>
+          </row>
+          <row id = "ahhhhh">
+            <entry colsep="1" rowsep="1">
+              <p>Term 1</p>
+            </entry>
+            <entry colsep="1" rowsep="1">
+              <p><i>Definition</i> 2</p>
+            </entry>
+          </row>
+          <row>
+            <entry colsep="1" rowsep="1">
+              <p>Term 3</p>
+            </entry>
+            <entry colsep="1" rowsep="1">
+              <p>Something <cite>Definition</cite> 3</p>
+            </entry>
+          </row>
+          <row>
+            <entry colsep="1" rowsep="1">Term 4</entry>
+            <entry colsep="1" rowsep="1">Definition 4</entry>
+          </row>
+          <row count="@(condition1)">
+            <entry colsep="1" rowsep="1">
+              <p>Term<sub> five 5</sub></p>
+            </entry>
+            <entry colsep="1" rowsep="1">
+              <p>Definition 5</p>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

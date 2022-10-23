@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="topic.xsd"
+   id="lkdsjsa454_lkdj">
+   <title>Topic 2</title>
+   <body>
+      <p>Some text goes here. Term<sub>five 5</sub></p>
+      <!-- x-ref should be created for this Term 5-->
+      <ol>
+         <li>Some text is here.</li>
+         <li>Term 1</li>
+         <!--x-ref should NOT be created for this Term 1, because we have already created it in topic1.dita-->
+      </ol>
+      <note><xref href="output.dita#id-jadjhad-asjdhkjshd-ksadjgdsjhgsd/Term_3_TERM">Term
+         3</xref></note> <!--Term 3 should be ignored because x-ref is already there-->
+   </body>
+</topic>

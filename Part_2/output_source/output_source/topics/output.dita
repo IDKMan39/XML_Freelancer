@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id-jadjhad-asjdhkjshd-ksadjgdsjhgsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="file.xslt">
+  <title>Topic</title>
+  <body>
+    <dl id="kndfgkdj">
+      <dlentry id="Term_1_TERM">
+        <dt>Term 1</dt>
+        <dd>Definition 1</dd>
+      </dlentry>
+      <dlentry id="Term_2_TERM">
+        <dt>Term 2</dt>
+        <dd><i>Definition</i> 2</dd>
+      </dlentry>
+      <dlentry id="Term_3_TERM">
+        <dt>Term 3</dt>
+        <dd>Something <cite>Definition</cite> 3</dd>
+      </dlentry>
+      <dlentry id="Term_4_TERM">
+        <dt>Term 4</dt>
+        <dd>Definition 4</dd>
+      </dlentry>
+      <dlentry id="Term_5_TERM" otherprops="@(condition1)">
+        <dt>Term<sub>five 5</sub></dt>
+        <dd>Definition 5</dd>
+      </dlentry>
+    </dl>
+  </body>
+</topic>

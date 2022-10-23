@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE documentmap PUBLIC "Document Map//EN" "map.dtd">
+<documentmap doctype="PDF" id="fdsfsdf" rev="1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="map.xsd">
+  <doctitle>
+    <maindoctitle>Map Name (MN)</maindoctitle>
+  </doctitle>
+  <topicref href="../topics/filename.dita">
+     <sata name="Topic" setting="topics/filename.dita"/> 
+	 <!--If a file is not present in the topics folder, but is mentioned here, ignore that file. -->
+  </topicref>
+  <topicref href="../topics/topic1.dita"></topicref>
+  <chapter href="../topics/topic2.dita"/>
+</documentmap>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="topic.xsd" id="lkdsjsalkdj">
+   <title>Topic 1</title>
+   <body>
+      <p>Some text goes here. <ph otherprops="(@condition)"><xref
+               href="output.dita#id-jadjhad-asjdhkjshd-ksadjgdsjhgsd/Term_2_TERM">Term 2</xref></ph><ph otherprops="(!@condition)">Term 2</ph></p>
+      <ul>
+         <li>Some text is here.</li>
+         <li><ph otherprops="(@condition)"><xref
+            href="output.dita#id-jadjhad-asjdhkjshd-ksadjgdsjhgsd/Term_1_TERM">Term 1</xref></ph><ph otherprops="(!@condition)">Term 1</ph></li>
+         <li>Term 2</li>
+         <li>Term 3</li>
+      </ul>
+   </body>
+</topic>
